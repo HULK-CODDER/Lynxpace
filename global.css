@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.indigo-theme{
+  --primary:#111827;
+  --secondary:#1F2933;
+  --background:#F9FAFB;
+  --background1:#E5E7EB;
+  --background2:#D1D5DB;
+  --background3:#9CA3AF;
+  --accent:#6366F1;
+  --accent2:#22C55E;
+  --text:#111827;
+  --text-light:#F9FAFB;
+}
+.gold-theme {
+  --primary: #0F172A;
+  --secondary: #1E293B;
+  --background: #F8FAFC;
+  --background1: #94A3B8;
+  --background2: #CBD5E1;
+  --background3: #E2E8F0;
+  --accent: #D4AF37;       /* Gold */
+  --accent2: #2563EB;      /* Royal Blue */
+  --text: #0F172A;
+  --text-light: #F8FAFC;
+}
+
+.green-theme {
+  --primary: #14532D;
+  --secondary: #166534;
+  --background: #ECFDF5;
+  --background1: #D1FAE5;
+  --background2: #A7F3D0;
+  --background3: #6EE7B7;
+  --accent: #22C55E;       /* Fresh Green */
+  --accent2: #F59E0B;      /* Amber */
+  --text: #064E3B;
+  --text-light: #F0FDF4;
+}
+
+.blue-theme {
+  --primary: #1E3A8A;
+  --secondary: #2563EB;
+  --background: #EFF6FF;
+  --background1: #DBEAFE;
+  --background2: #BFDBFE;
+  --background3: #93C5FD;
+  --accent: #38BDF8;       /* Sky Blue */
+  --accent2: #F43F5E;      /* Rose */
+  --text: #0B1F3A;
+  --text-light: #FFFFFF;
+}
+
+.purple-neon-theme {
+  --primary: #240046;
+  --secondary: #3C096C;
+  --background: #10002B;
+  --background1: #240046;
+  --background2: #5A189A;
+  --background3: #7B2CBF;
+  --accent: #FFEA00;       /* Neon Yellow */
+  --accent2: #FF007F;      /* Neon Pink */
+  --text: #E0AAFF;
+  --text-light: #FFFFFF;
+}
+
+.dark-green-theme {
+  --primary: #18181B;
+  --secondary: #27272A;
+  --background: #09090B;
+  --background1: #18181B;
+  --background2: #27272A;
+  --background3: #3F3F46;
+  --accent: #22C55E;       /* Modern Green */
+  --accent2: #38BDF8;      /* Light Blue */
+  --text: #FAFAFA;
+  --text-light: #FAFAFA;
+}
+
+.violet-theme {
+  --primary: #6D28D9;
+  --secondary: #7C3AED;
+  --background: #F5F3FF;
+  --background1: #EDE9FE;
+  --background2: #DDD6FE;
+  --background3: #C4B5FD;
+  --accent: #F59E0B;       /* Warm Amber */
+  --accent2: #10B981;      /* Emerald */
+  --text: #1E1B4B;
+  --text-light: #FFFFFF;
+}
+
+.pink-theme {
+  --primary: #A5B4FC;
+  --secondary: #C7D2FE;
+  --background: #FDF4FF;
+  --background1: #FAE8FF;
+  --background2: #F5D0FE;
+  --background3: #E9D5FF;
+  --accent: #F472B6;       /* Soft Pink */
+  --accent2: #8B5CF6;      /* Violet */
+  --text: #4C1D95;
+  --text-light: #FFFFFF;
+}
+
+.cyber-theme {
+  --primary: #0D0D0D;
+  --secondary: #1A1A2E;
+  --background: #050505;
+  --background1: #111111;
+  --background2: #1F1F1F;
+  --background3: #2A2A2A;
+  --accent: #00F5FF;       /* Neon Cyan */
+  --accent2: #FF0055;      /* Neon Red/Pink */
+  --text: #E0E0E0;
+  --text-light: #FFFFFF;
+}
+
+.cyan-theme {
+  --primary: #2563EB;
+  --secondary: #1D4ED8;
+  --background: #F8FAFC;
+  --background1: #E2E8F0;
+  --background2: #CBD5F5;
+  --background3: #93C5FD;
+  --accent: #06B6D4;       /* Cyan */
+  --accent2: #10B981;      /* Emerald Green */
+  --text: #0F172A;
+  --text-light: #FFFFFF;
+}
+
+.orange-theme {
+  --primary: #7C2D12;
+  --secondary: #9A3412;
+  --background: #FFF7ED;
+  --background1: #FFEDD5;
+  --background2: #FED7AA;
+  --background3: #FDBA74;
+  --accent: #F97316;       /* Orange */
+  --accent2: #0EA5E9;      /* Ocean Blue */
+  --text: #431407;
+  --text-light: #FFFFFF;
+}
+
+.emerald-theme {
+  --primary: #064E3B;
+  --secondary: #065F46;
+  --background: #F0FDF4;
+  --background1: #86EFAC;
+  --background2: #BBF7D0;
+  --background3: #DCFCE7;
+  --accent: #10B981;       /* Mint Emerald */
+  --accent2: #F59E0B;      /* Amber */
+  --text: #052E16;
+  --text-light: #FFFFFF;
+}
+
+.red-theme {
+  --primary: #7F1D1D;
+  --secondary: #B91C1C;
+  --background: #FEF2F2;
+  --background1: #F87171;
+  --background2: #FCA5A5;
+  --background3: #FECACA;
+  --accent: #EF4444;       /* Red */
+  --accent2: #F59E0B;      /* Gold */
+  --text: #450A0A;
+  --text-light: #FFFFFF;
+}
+
+.nord-theme {
+  --primary: #2E3440;
+  --secondary: #3B4252;
+  --background: #242933;
+  --background1: #3B4252;
+  --background2: #4C566A;
+  --background3: #D8DEE9;
+  --accent: #88C0D0;      /* Frost Blue */
+  --accent2: #A3BE8C;     /* Sage Green */
+  --text: #ECEFF4;
+  --text-light: #ECEFF4;
+}
+.sunset-theme {
+  --primary: #4C1D95;
+  --secondary: #5B21B6;
+  --background: #FFF7ED;
+  --background1: #FFEDD5;
+  --background2: #FED7AA;
+  --background3: #FDBA74;
+  --accent: #7C3AED;      /* Deep Violet */
+  --accent2: #F97316;     /* Coral Orange */
+  --text: #1C1917;
+  --text-light: #FFFFFF;
+}
+.emerald-theme {
+  --primary: #064E3B;
+  --secondary: #047857;
+  --background: #F0FDF4;
+  --background1: #DCFCE7;
+  --background2: #BBF7D0;
+  --background3: #86EFAC;
+  --accent: #059669;      /* Emerald Green */
+  --accent2: #D97706;     /* Amber */
+  --text: #064E3B;
+  --text-light: #FFFFFF;
+}
+.cyberpunk-theme {
+  --primary: #0F172A;
+  --secondary: #1E293B;
+  --background: #020617;
+  --background1: #1E293B;
+  --background2: #334155;
+  --background3: #475569;
+  --accent: #06B6D4;      /* Neon Cyan */
+  --accent2: #EC4899;     /* Hot Pink */
+  --text: #F8FAFC;
+  --text-light: #F8FAFC;
+}
+
+
+
+/* Toast Container */
+.toast-container {
+  position: fixed;
+  top: 10%;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Toast Card */
+.toast {
+  background-color: var(--secondary, #1f293d);
+  color: var(--text-light, #ffffff);
+  border-left: 4px solid var(--accent, #6366f1);
+  padding: 12px 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* For WebKit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 10px;
+  border: 2px solid var(--background1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent2);
+}
+
+/* Optional: scrollbar corner */
+::-webkit-scrollbar-corner {
+  background: var(--background1);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    var(--accent),
+    var(--accent2)
+  );
+  border-radius: 10px;
+}
+
+

@@ -1,0 +1,169 @@
+h3 {
+    background-color: var(--primary);
+    width: 100vw;
+    border: 1px solid #4790dd;
+    color: var(--accent2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.shipline {
+    width: 100vw;
+    background-color: var(--background2);
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    padding-bottom: 100px;
+    /* overflow: auto; */
+    height: 60vh;
+
+}
+
+.shipline div {
+    padding: 5px 7px;
+/* --angle: 45deg;
+  background: linear-gradient(var(--angle),pink, #2563EB, #38BDF8, #4F78BB,#0fb0ff,violet);
+  animation: rotateGradient2 1.3s alternate-reverse infinite;  */
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-self: center;
+    align-self: center;
+    /* border: 5px inset var(--primary);
+    box-shadow: -1px -1px 0.2cm var(--accent);
+    border-radius: 10px; */
+    
+
+}
+
+.shipline li {
+/*     
+    background: rgb(0,140,255);
+  width: 20vw;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 20vw;
+  height: 7vh;
+   font-size: 16px;
+  /* padding: 1em 3.3em; */
+  cursor: pointer;
+  transform: perspective(200px) rotateX(15deg);
+  color: white;
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(
+    0deg,
+    var(--primary) 0%,
+    var(--accent)100%
+  );
+  box-shadow: rgba(63, 94, 251, 0.2) 0px 40px 29px 0px;
+  will-change: transform;
+  transition: all 0.3s;
+  border-bottom: 2px solid rgba(70, 135, 252, 1);
+}
+
+.shipline li:hover {
+    /* transform: scale(105%);
+    background-color: violet;
+    cursor: pointer; */
+  /* box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255); */
+transform: perspective(180px) rotateX(30deg) translateY(2px);
+
+background: linear-gradient(
+    0deg,
+    var(--accent2) 0%,
+    var(--accent2)100%
+  );
+}
+
+.shipline li:active {
+    /* transform: scale(90%);
+    background-color: var(--accent); */
+  transform: perspective(170px) rotateX(36deg) translateY(5px);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotateBg {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1.2);
+    }
+}
+@keyframes rotateGradient {
+  0% {
+    background: linear-gradient(45deg, #2563EB, #38BDF8, #1E293B);
+  }
+  25% {
+    background: linear-gradient(135deg, #2563EB, #38BDF8, #1E293B);
+  }
+  50% {
+    background: linear-gradient(225deg, #2563EB, #38BDF8, #1E293B);
+  }
+  75% {
+    background: linear-gradient(315deg, #2563EB, #38BDF8, #1E293B);
+  }
+  100% {
+    background: linear-gradient(405deg, #2563EB, #38BDF8, #1E293B);
+  }
+}
+@keyframes rotateGradient2 {
+  from {
+    --angle: 45deg;
+  }
+  to {
+    --angle: 405deg;
+  }
+}
+
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 45deg;
+  inherits: false;
+}

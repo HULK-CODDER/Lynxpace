@@ -1,0 +1,63 @@
+#trace{
+    background-color: var(--primary);
+    color: var(--accent2);
+    border: 2px inset var(--secondary);
+}
+.tracing {
+    height: 110%;
+}
+.tracing div {
+    /* background: linear-gradient(45deg, red, blue, violet); */
+    /* padding: 5px 7px;
+    /* background-size: 200% 200%;
+    /* helps smooth effect */
+    /* animation: rotateBg 8s linear infinite; */ 
+/* background: linear-gradient(45deg, #2563EB, #38BDF8, #1E293B);
+  animation: rotateGradient 6s linear infinite; */
+/* --angle: 45deg;
+  background: linear-gradient(var(--angle),rgb(153, 29, 50), #0f3483, #3091bb, #6a8cc2,#0fb0ff,rgb(141, 44, 141));
+  /* /* background: linear-gradient(var(--angle),pink, #2563EB, #38BDF8, #4F78BB,#0fb0ff,violet,var(--background2),var(--background2),var(--background2),var(--background2),var(--background2),var(--background2),var(--background2),var(--background2),var(--background2),var(--background2),var(--background2),var(--background2),var(--background2),var(--background2),var(--background2)); */
+  /* animation: rotateGradient2 1.3s alternate-reverse infinite;  */ 
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-self: center;
+    align-self: center;
+    /* border: 5px inset var(--primary);
+    box-shadow: -1px -1px 0.2cm var(--accent);
+    border-radius: 10px; */
+
+}
+.tracing li:hover {
+    /* transform: scale(105%);
+    background-color: var(--secondary);
+    background: linear-gradient(45deg,rgb(204, 137, 204),rgb(182, 66, 182));
+    color: white;
+    font-weight: bold;
+    cursor: pointer; */
+       /* transform: scale(105%);
+    background-color: violet;
+    cursor: pointer; */
+  /* box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255); */
+transform: perspective(180px) rotateX(30deg) translateY(2px);
+ background: linear-gradient(
+    0deg,
+    var(--accent2) 0%,
+    var(--accent2)100%
+  );
+}
+.tracing li:active{
+      /* transform: scale(94%);
+    background: linear-gradient(206deg, rgb(85 139 219), rgb(59 38 126));
+    color: #76fd16;
+    font-weight: bold;
+    cursor: pointer;
+    border-color: rgb(235 124 4); */
+      /* transform: scale(90%);
+    background-color: var(--accent); */
+  transform: perspective(170px) rotateX(36deg) translateY(5px);
+}
