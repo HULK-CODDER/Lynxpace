@@ -14,7 +14,7 @@ const trackingLinks = [
   "https://www.hmm21.com/e-service/general/trackNTrace/TrackNTrace.do",
   "https://www.zim.com/tools/track-a-shipment",
   "https://www.aclcargo.com/track-trace/",
-  "https://www.swireshipping.com/requestTrackShipment",
+  "https://na.swireshipping.com/Tracking/QuickAccess",
   "https://www.eimskip.com/find-shipment/"
 ];
 
