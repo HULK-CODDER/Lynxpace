@@ -8,6 +8,7 @@ let hmm_detention = document.getElementById('hmm_detention')
 let hmm_detention2 = document.getElementById('hmm_detention2')
 let sml_bl = document.getElementById('sml_bl')
 let sml_detention = document.getElementById('sml_detention')
+let maersk_offhire = document.getElementById('maersk_offhire')
 
 
 extra_links_button.addEventListener('click',()=>{
@@ -46,5 +47,8 @@ sml_bl.addEventListener("click",()=>{
 })
 sml_detention.addEventListener("click",()=>{
     window.open('https://esvc.smlines.com/smline/CUP_HOM_3711.do?sessLocale=en',"_blank")
+})
+maersk_offhire.addEventListener("click",()=>{
+    window.open('https://return.maersk.com/?ref=NAM',"_blank")
 })
 
