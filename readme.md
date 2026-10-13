@@ -42,7 +42,10 @@ lynxpace/
 ├── terminals.js      # External terminal routing logic
 └── theme.js          # Theme switching engine
 ```
+## 🚀 Live Portal Access
 
+You can visit and explore the live web application here:
+👉 [Lynxpace Portal](https://hulk-codder.github.io/Lynxpace/)
 ---
 
 ## ⚡ Quick Start
