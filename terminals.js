@@ -5,6 +5,7 @@ let pw= document.getElementById("pw")
 let musket= document.getElementById("musket")
 let best= document.getElementById("best")
 let seaport= document.getElementById("seaport")
+let hct= document.getElementById("hct")
 
 cn.addEventListener("click",()=>{
    window.open("https://ecprod.cn.ca/cis/#/auth?logout=true", "_blank");
@@ -26,4 +27,7 @@ best.addEventListener("click",()=>{
 });
 seaport.addEventListener("click",()=>{
    window.open("https://etermsys.com/", "_blank");
+});
+hct.addEventListener("click",()=>{
+   window.open("https://trace.hcterminal.com/container-search?", "_blank");
 });
