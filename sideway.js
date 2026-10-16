@@ -9,6 +9,8 @@ let hmm_detention2 = document.getElementById('hmm_detention2')
 let sml_bl = document.getElementById('sml_bl')
 let sml_detention = document.getElementById('sml_detention')
 let maersk_offhire = document.getElementById('maersk_offhire')
+let seatainer_offhire = document.getElementById('seatainer_offhire')
+let Pnw_offhire = document.getElementById('Pnw_offhire')
 
 
 extra_links_button.addEventListener('click',()=>{
@@ -50,5 +52,11 @@ sml_detention.addEventListener("click",()=>{
 })
 maersk_offhire.addEventListener("click",()=>{
     window.open('https://return.maersk.com/?ref=NAM',"_blank")
+})
+seatainer_offhire.addEventListener("click",()=>{
+    window.open('https://depotsystems.contrans.ca/Default.aspx',"_blank")
+})
+Pnw_offhire.addEventListener("click",()=>{
+    window.open('https://containertracking.contrans.ca/',"_blank")
 })
 
