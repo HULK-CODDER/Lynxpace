@@ -12,12 +12,12 @@ let nav_e =nave.children
 //     });
 
 // });
-nav_e[0].addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
-});
+// nav_e[0].addEventListener("click", () => {
+//   window.scrollTo({
+//     top: 0,
+//     behavior: "smooth"
+//   });
+// });
 
 nav_e[1].addEventListener("click",()=>{
     shipline.scrollIntoView({
