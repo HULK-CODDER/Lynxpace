@@ -40,14 +40,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (schild[13] && dialog && dialogchange) {
         schild[13].addEventListener("click", () => {
             dialog.classList.toggle("cross");
-            dialogchange.innerText = `"WB Canada Logistics" <na.canadalogistics@swireshipping.com>;\n"Abraham.Medina@swireshipping.com" <Abraham.Medina@swireshipping.com>`;
+            dialogchange.innerText = `we need to use the following email for thre return locations <br>"WB Canada Logistics" <na.canadalogistics@swireshipping.com>;\n"Abraham.Medina@swireshipping.com" <Abraham.Medina@swireshipping.com>`;
         });
     }
 
     if (schild[14] && dialog && dialogchange) {
         schild[14].addEventListener("click", () => {
             dialog.classList.toggle("cross");
-            dialogchange.innerText = `"CA Import" <caimport@eimskip.com>;\n"Eimskip Canada Sales" <casales@eimskip.com>`;
+            dialogchange.innerText = `we need to use the following email for thre return locations <br>"CA Import" <caimport@eimskip.com>;\n"Eimskip Canada Sales" <casales@eimskip.com>`;
         });
     }
 
