@@ -4,7 +4,7 @@ let schild = shipli.children
 let btn0=document.getElementById("btn0")
 let dialog = document.querySelector(".section")
 // dialog.classList.toggle("cross")
-
+let dialogchange =document.getElementById("dialogchange")
 schild[0].addEventListener("click",()=>{
    window.open("https://sites.google.com/one-line.com/empty-pickup-return", "_blank");
 });
@@ -46,9 +46,14 @@ schild[12].addEventListener("click",()=>{
 });
 schild[13].addEventListener("click",()=>{
    dialog.classList.toggle("cross")
+   dialogchange.innerText=`"WB Canada Logistics" <na.canadalogistics@swireshipping.com>;
+ "Abraham.Medina@swireshipping.com" <Abraham.Medina@swireshipping.com>`;
 });
 schild[14].addEventListener("click",()=>{
    dialog.classList.toggle("cross")
+    dialogchange.innerText=`"CA Import" <caimport@eimskip.com>; 
+"Eimskip Canada Sales" <casales@eimskip.com>`;
+});
 });
 
 btn0.addEventListener("click",()=>{
