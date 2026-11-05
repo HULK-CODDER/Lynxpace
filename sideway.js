@@ -11,6 +11,7 @@ let sml_detention = document.getElementById('sml_detention')
 let maersk_offhire = document.getElementById('maersk_offhire')
 let seatainer_offhire = document.getElementById('seatainer_offhire')
 let pw_offhire = document.getElementById('pw_offhire')
+let samsara = document.getElementById('samsara')
 
 
 extra_links_button.addEventListener('click',()=>{
@@ -26,6 +27,9 @@ extra_links_button.addEventListener('click',()=>{
 
 
 
+samsara.addEventListener("click",()=>{
+    window.open('https://cloud.samsara.com/o/9004171/fleet/list',"_blank")
+})
 oocl_detention.addEventListener("click",()=>{
     window.open('https://www.oocl.com/canada/eng/Pages/default.aspx',"_blank")
 })
