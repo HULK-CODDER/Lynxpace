@@ -54,7 +54,6 @@ schild[14].addEventListener("click",()=>{
     dialogchange.innerText=`"CA Import" <caimport@eimskip.com>; 
 "Eimskip Canada Sales" <casales@eimskip.com>`;
 });
-});
 
 btn0.addEventListener("click",()=>{
         dialog.classList.toggle("cross")
