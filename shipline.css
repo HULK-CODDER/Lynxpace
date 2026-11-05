@@ -1,10 +1,7 @@
 h3 {
+    position: relative;
+    isolation: isolate;
     background-color: var(--primary);
-    background-image: url('truckkun.gif');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-
     width: 100vw;
     border: 1px solid #4790dd;
     color: var(--accent2);
@@ -14,6 +11,18 @@ h3 {
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular',
         'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('truckkun.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    filter: invert(1);
+    z-index: -1;
 }
 h3>span{
     background-color: white;
