@@ -12,6 +12,7 @@ let maersk_offhire = document.getElementById('maersk_offhire')
 let seatainer_offhire = document.getElementById('seatainer_offhire')
 let pw_offhire = document.getElementById('pw_offhire')
 let samsara = document.getElementById('samsara')
+let global = document.getElementById('global')
 
 
 extra_links_button.addEventListener('click',()=>{
@@ -29,6 +30,9 @@ extra_links_button.addEventListener('click',()=>{
 
 samsara.addEventListener("click",()=>{
     window.open('https://cloud.samsara.com/o/9004171/fleet/list',"_blank")
+})
+global.addEventListener("click",()=>{
+    window.open('https://tracking.one/container-tracking?referenceNumber=NEWU2260558&carrierCode=HLCU&referenceType=CONTAINER',"_blank")
 })
 oocl_detention.addEventListener("click",()=>{
     window.open('https://www.oocl.com/canada/eng/Pages/default.aspx',"_blank")
