@@ -110,8 +110,9 @@ h3{
         justify-content: end;
         align-items: center;
 }
-}
-
-h3::before {
+    h3::before {
     background-size: center;
 }
+
+}
+
